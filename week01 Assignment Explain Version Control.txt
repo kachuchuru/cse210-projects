@@ -1,0 +1,16 @@
+What is a Version Control and Why it’s Important
+
+While working on big computer programs, it is highly likely that you will do it as a team and that you will make a lot of changes(versions) on your codes. Version control therefore is the way these changes(versions) are being tracked to know when they were made, the contents of the changes, why they were made and who made them.
+One of the benefits of version control is that developers who are living in different geographical areas can be able to collaborate effectively as these changes are able to be tracked using tools developed for that purpose. Through such collaborations, the changes can be made with minimum cost and be able to be used in the future.
+A real-life example is a team of software developers for designing an online course program like the BYU Pathway. Such a program would need different experts located in different universities in the world and have different background on e-learning. Such a program would require several codes that would be developed over a long period. During the development period, a lot of changes (version) would be developed by different collaborators. Obviously, they will need a tool to track those changes and effectively come up with a final version. Over the years, the same tool can be used to make further changes in the program.
+There are several commands that are used in version control. However, the 3 common online commands are:
+o git add—This is a command that is used to add changes in the original version
+o git commit—This is a command whereby the changes made are restored in the respective file called a repository
+o git push – This is a command whereby a developer sends(pushes) the changes he has made to an online tool for other developers or team mates to see them 
+A version control system needs tools to ensure that changes are made with minimum costs and can be tracked effectively by developers located in different locations. These tools are:
+Git – This is a tool that keeps track of every change a team-mate makes on his assignment. It keeps records of what changes were made in the code, when made and by whom.
+Repository—This is a data storage facility (a folder) that contains two items; Firstly, it will contain the contents of the project. Meaning, the original document or project and its several versions so far made by a developer. Secondly, it will contain the history of the changes made. Meaning the git history
+GitHub—This is an online tool that stores the repositories. Being an online home, GitHub allows programmers to share their works as they can download the project from anywhere and collaborate effectively.  
+
+
+ 
