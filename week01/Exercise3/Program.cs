@@ -27,29 +27,33 @@ class Program
             Console.WriteLine("You guessed it");
         }
         //Requirement2
-     Console.Write("What is the magic number? ");
-     string magikNumber =Console.ReadLine();
-     int x =int.Parse(magikNumber);
+     //Console.Write("What is the magic number? ");
+     //string magikNumber =Console.ReadLine();
+     //int x =int.Parse(magikNumber);
         
-      x = 7;
-     int y = -1;
-     while (y!=x)
+     
+     //int y = -1;
+     //while (y!=x)
 
      {
-        Console.Write("What is your guess?  ");
-        int guess = int.Parse(Console.ReadLine());
+        //Console.Write("What is your guess?  ");
+         //y= int.Parse(Console.ReadLine());
         
-        if (y < x)
+        //if (y < x)
         {
-            Console.WriteLine("Higher");
+            //Console.WriteLine("Higher");
         }
-        else if (y > x)
+        //else if (y > x)
         {
             Console.WriteLine("Lower");
         }
-     }    
+        //else
+        {
+            //Console.WriteLine("You guessed it");
+        }
+     }
         
-        Console.WriteLine("You guessed it");
+
       
       // Requirement 3
        Random randomGenerator=new Random();
