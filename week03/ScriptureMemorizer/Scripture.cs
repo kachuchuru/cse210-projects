@@ -9,7 +9,9 @@ public class Scripture
 
   public Scripture (Reference reference, string text)
   {
-
+    _reference = reference;
+    _words = new List<Word>(); 
+    
   }
   public void HideRandomWords()
 {
