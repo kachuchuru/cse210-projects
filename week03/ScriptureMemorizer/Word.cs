@@ -6,39 +6,36 @@ public class Word
     private string _text;
     private bool _IsHidden;
 
-    public Word(string text)
+    public Word(string text)// Constructor
     {
        _text = text;
        _IsHidden= false; 
     }
-
     public void Hide()
     {
-      _IsHidden=true;  
+      _IsHidden = true;  
     }
 
     public void Show()
     {
-     _IsHidden=false;   
+     _IsHidden = false;   
     }
 
     public bool IsHidden()
+    
     {
-
-      return _IsHidden; 
+      return _IsHidden;
     }
 
     public string GetDisplayText()
     {
-       if (_IsHidden)
+      if (_IsHidden)
         {
-         return "____";  // _text.Length="_"
+         return new string('_',_text.Length); // _text.Length="_"
         }
-        else
+      else
         {
-            return _text;
+          return _text;
         }
-    
-       
     }
 }
