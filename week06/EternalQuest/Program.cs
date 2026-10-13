@@ -1,6 +1,7 @@
 using System;
-
-class Program
+using System.Drawing;
+using System.Globalization;
+ class Program
 {
     static void Main(string[] args)
     {
