@@ -6,28 +6,33 @@ using System.Collections.Generic;
 
 public abstract class Goal
 {
-    private string _shortName;
+    protected string _shortName;
 
-    private string _desription;
+    protected string _description;
 
-    private string _points;
+    protected int _points;
 
-    public Goal(string name, string description,string points)
+    public Goal(string name, string description,int points)
     {
         _shortName = name;
-        _desription = description;
+        _description = description;
         _points = points;
 
 
+    }
+
+    public int GetPoints()
+    {
+        return _points;
     }
     public abstract void RecordEvent();
     
 
     public abstract bool IsComplete();
     
-    public string GetDetailString()
+    public virtual string GetDetailString()
     {
-       return $"_shortName _desription _points";
+       return $"[ ]{_shortName } ({_description})";
     }
 
 

@@ -1,0 +1,4 @@
+0
+SimpleGoal,Attend the temple,Attend temple sessions in December,55,False
+EternalGoal,Read Scripture,Read scripture with the family every Sunday,75
+ChecklistGoal,Exercise,Exercise 3 times a week,45,80,3,0
